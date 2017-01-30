@@ -14,12 +14,12 @@ public class Login extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.d("-------MyDebug------", "onCreate");
+        Log.d("---MyDebug---", "onCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
     }
 
-    // On "SkipLogin" button, MainActivity will be opened
+    // On "SkipLogin" button, the MainActivity will be opened
     public void onButtonClick(View v){
         if (v.getId() == R.id.Blogin)
         {
